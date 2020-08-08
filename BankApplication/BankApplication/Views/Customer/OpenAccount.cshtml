@@ -1,0 +1,75 @@
+﻿@model BankApplication.BankAppServiceReference.Hesap
+@{
+    ViewBag.Title = "OpenAccount";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/css/AddCustomer/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+<link href="~/css/AddCustomer/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+<!-- Font special for pages-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+<!-- Vendor CSS-->
+<link href="~/css/AddCustomer/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+<link href="~/css/AddCustomer/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+<!-- Main CSS-->
+<link href="~/css/AddCustomer/css/main.css" rel="stylesheet" media="all">
+
+
+@Html.AntiForgeryToken()
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+@Html.HiddenFor(m => m.HesapID)
+<div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+    <div class="wrapper wrapper--w790">
+        <div class="card card-5">
+            <div class="card-heading">
+                <h2 class="title">Hesap Açma</h2>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+                    <div class="form-row m-b-55">
+                        <div class="name">Hesap Oluştur</div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Hesap No:</div>
+                        <div class="value">
+                            <div class="input-group">
+                                @Html.EditorFor(model => model.HesapNo, new { htmlAttributes = new { @class = "input--style-5", @type = "text", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.HesapNo)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Bakiye</div>
+                        <div class="value">
+                            <div class="input-group">
+                                @Html.EditorFor(model => model.Bakiye, new { htmlAttributes = new { @class = "input--style-5", @type = "text", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Bakiye)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="btn btn--radius-2 btn--green" type="submit" style="padding: 0px 250px">Hesap Oluştur</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Jquery JS-->
+<script src="~/css/AddCustomer/vendor/jquery/jquery.min.js"></script>
+<!-- Vendor JS-->
+<script src="~/css/AddCustomer/vendor/select2/select2.min.js"></script>
+<script src="~/css/AddCustomer/vendor/datepicker/moment.min.js"></script>
+<script src="~/css/AddCustomer/vendor/datepicker/daterangepicker.js"></script>
+
+<!-- Main JS-->
+<script src="~/css/AddCustomer/js/global.js"></script>
+
+
+<!-- end document-->

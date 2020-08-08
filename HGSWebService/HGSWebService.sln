@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HGSWebService", "HGSWebService\HGSWebService.csproj", "{384C04C9-6ED4-44BB-9906-21444702541C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{2F775E42-246F-4245-AB9D-3405EED52D07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{384C04C9-6ED4-44BB-9906-21444702541C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384C04C9-6ED4-44BB-9906-21444702541C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384C04C9-6ED4-44BB-9906-21444702541C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384C04C9-6ED4-44BB-9906-21444702541C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F775E42-246F-4245-AB9D-3405EED52D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F775E42-246F-4245-AB9D-3405EED52D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F775E42-246F-4245-AB9D-3405EED52D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F775E42-246F-4245-AB9D-3405EED52D07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

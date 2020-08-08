@@ -1,0 +1,90 @@
+﻿@model BankApplication.BankAppServiceReference.Musteri
+
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="~/css/Login/images/icons/favicon.ico" />
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="~/css/Login/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="~/css/Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="~/css/Login/vendor/animate/animate.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="~/css/Login/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="~/css/Login/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="~/css/Login/css/util.css">
+<link rel="stylesheet" type="text/css" href="~/css/Login/css/main.css">
+
+
+@Html.AntiForgeryToken()
+@Html.ValidationSummary(true)
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100">
+            <div class="login100-pic js-tilt" data-tilt>
+                <img src="~/css/Login/images/nslogo.jpg" alt="IMG">
+            </div>
+            <form class="login100-form validate-form">
+                <span class="login100-form-title">
+                    İnternet Şubemize Hoşgeldiniz
+                </span>
+
+                <div class="wrap-input100 validate-input" data-validate="Valid TcNO is required: 19545687553">
+
+                    @Html.EditorFor(model => model.TcNumarasi, new { htmlAttributes = new { @class = "input100", @placeholder = "TC Kimlik NO", @type = "text" } })
+                    @Html.ValidationMessageFor(model => model.TcNumarasi)
+
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Password is required">
+
+                    @Html.EditorFor(model => model.Sifre, new { htmlAttributes = new { @class = "input100", @placeholder = "Şifre", @type = "password" } })
+                    @Html.ValidationMessageFor(model => model.Sifre)
+
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <button formmethod="post" class="login100-form-btn">
+                        Login
+                    </button>
+                </div>
+                <div class="text-center p-t-136">
+                    @Html.ActionLink("Create Account", "AddCustomer", "Customer", "", new { @class = "txt2" })
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="~/css/Login/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/css/Login/vendor/bootstrap/js/popper.js"></script>
+<script src="~/css/Login/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/css/Login/vendor/select2/select2.min.js"></script>
+<script>
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+</script>
+<script src="~/css/Login/js/main.js"></script>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

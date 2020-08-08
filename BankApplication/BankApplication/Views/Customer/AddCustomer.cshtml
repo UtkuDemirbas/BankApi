@@ -1,0 +1,118 @@
+﻿@model BankApplication.BankAppServiceReference.Musteri
+
+@{
+    ViewBag.Title = "AddCustomer";
+    Layout = null;
+}
+
+
+<link href="~/css/AddCustomer/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+<link href="~/css/AddCustomer/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+<!-- Font special for pages-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+<!-- Vendor CSS-->
+<link href="~/css/AddCustomer/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+<link href="~/css/AddCustomer/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+<!-- Main CSS-->
+<link href="~/css/AddCustomer/css/main.css" rel="stylesheet" media="all">
+
+
+@Html.AntiForgeryToken()
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+<div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+    <div class="wrapper wrapper--w790">
+        <div class="card card-5">
+            <div class="card-heading">
+                <h2 class="title">Kayıt Ol</h2>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+                    <div class="form-row m-b-55">
+                        <div class="name">Ad</div>
+                        <div class="value">
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group-desc">
+                                        @Html.EditorFor(model => model.Adi, new { htmlAttributes = new { @class = "input--style-5", @type = "text", @required = "required" } })
+                                        @Html.ValidationMessageFor(model => model.Adi)
+                                        <label class="label--desc">Ad</label>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group-desc">
+                                        @Html.EditorFor(model => model.Soyadi, new { htmlAttributes = new { @class = "input--style-5", @type = "text", @required = "required" } })
+                                        @Html.ValidationMessageFor(model => model.Soyadi)
+                                        <label class="label--desc">Soyad</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Tc Kimlik Numarası</div>
+                        <div class="value">
+                            <div class="input-group">
+                                @Html.EditorFor(model => model.TcNumarasi, new { htmlAttributes = new { @class = "input--style-5", @type = "text", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.TcNumarasi)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Email</div>
+                        <div class="value">
+                            <div class="input-group">
+                                @Html.EditorFor(model => model.Eposta, new { htmlAttributes = new { @class = "input--style-5", @type = "email", @required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Eposta)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row m-b-55">
+                        <div class="name">Telefon Numarası</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-9">
+                                    <div class="input-group-desc">
+                                        @Html.EditorFor(model => model.Tel, new { htmlAttributes = new { @class = "input--style-5", @type = "text", @required = "required" } })
+                                        @Html.ValidationMessageFor(model => model.Tel)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row m-b-55">
+                        <div class="name">Sifre</div>
+                        <div class="value">
+                            <div class="row row-refine">
+                                <div class="col-9">
+                                    <div class="input-group-desc">
+                                        @Html.EditorFor(model => model.Sifre, new { htmlAttributes = new { @class = "input--style-5", @type = "password", @required = "required" } })
+                                        @Html.ValidationMessageFor(model => model.Sifre)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="btn btn--radius-2 btn--green" type="submit" style="padding: 0px 275px">Kayıt Ol</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/css/AddCustomer/vendor/jquery/jquery.min.js"></script>
+<!-- Vendor JS-->
+<script src="~/css/AddCustomer/vendor/select2/select2.min.js"></script>
+<script src="~/css/AddCustomer/vendor/datepicker/moment.min.js"></script>
+<script src="~/css/AddCustomer/vendor/datepicker/daterangepicker.js"></script>
+
+<!-- Main JS-->
+<script src="~/css/AddCustomer/js/global.js"></script>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Dashboard</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="~/css/Layout/css/font-face.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="~/css/Layout/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="~/css/Layout/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="~/css/Layout/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="~/css/Layout/css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="#">
+                            <img src="~/css/Login/images/nslogo.jpg" alt="CoolAdmin" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Bilgilerimi Güncelle
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chart-bar"></i>Hesap Aç
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-table"></i>Hesap Listele
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-check-square"></i>Hesaplar Arası Transfer
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-calendar-alt"></i>Hesaplar Arası Virman
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-map-marker-alt"></i>Kredi Al
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo" style="height:50px">
+                <a href="#">
+                    <img src="~/css/Login/images/nslogo.jpg" style="height:50px;width:450px" alt="Cool Admin" />
+                </a>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li>
+                            <a class="js-arrow" href="~/Customer/UpdateCustomer">
+                                <i class="fas fa-address-card"></i>Bilgilerimi Güncelle
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/Customer/OpenAccount">
+                                <i class="fas fa-file"></i>Hesap Aç
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-table"></i>Hesap Listele
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-retweet"></i>Hesaplar Arası Transfer
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-sort"></i>Hesaplar Arası Virman
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-chart-bar"></i>Kredi Al
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop" style="height:50px">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                    </div>
+                </div>
+            </header> 
+            @RenderBody()
+        </div>
+       
+    </div>
+    <!-- Jquery JS-->
+    <script src="~/css/Layout/vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="~/css/Layout/vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="~/css/Layout/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="~/css/Layout/vendor/slick/slick.min.js">
+    </script>
+    <script src="~/css/Layout/vendor/wow/wow.min.js"></script>
+    <script src="~/css/Layout/vendor/animsition/animsition.min.js"></script>
+    <script src="~/css/Layout/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="~/css/Layout/vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="~/css/Layout/vendor/counter-up/jquery.counterup.min.js">
+    </script>
+    <script src="~/css/Layout/vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="~/css/Layout/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="~/css/Layout/vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="~/css/Layout/vendor/select2/select2.min.js"> </script>
+
+    <!-- Main JS-->
+    <script src="~/css/Layout/js/main.js"></script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>
+<!-- end document-->
+
+
+

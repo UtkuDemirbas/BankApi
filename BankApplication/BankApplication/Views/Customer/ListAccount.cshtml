@@ -1,0 +1,22 @@
+﻿@model IEnumerable<BankApplication.BankAppServiceReference.Hesap>
+
+@{
+    ViewBag.Title = "ListAccount";
+    Layout = null;
+}
+
+@foreach (var item in Model)
+{
+    <div class="card">
+        <div class="card-header bg-dark">
+            <strong class="card-title text-light">Hesap No:@item.HesapNo</strong>
+        </div>
+        <div class="card-body text-white bg-danger">
+            <p class="card-text text-light">Hesap Bakiyeniz:@item.Bakiye</p>
+            @Html.ActionLink("Hesap Kapat", "CloseAccount", new { id = item.HesapNo })
+        </div>
+    </div>
+}
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}

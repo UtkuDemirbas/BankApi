@@ -1,0 +1,106 @@
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\ApplicationInsights.config
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\csc.exe
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\vbc.exe
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\VBCSCompiler.exe
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\BankApplication.dll.config
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\BankApplication.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\BankApplication.pdb
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Antlr3.Runtime.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.Agent.Intercept.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.DependencyCollector.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.Web.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.WindowsServer.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.ApplicationInsights.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Newtonsoft.Json.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Helpers.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Mvc.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Optimization.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Razor.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.WebPages.Deployment.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.WebPages.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.WebPages.Razor.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\WebGrease.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.DependencyCollector.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.Web.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.AI.WindowsServer.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.ApplicationInsights.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Helpers.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Mvc.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Optimization.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.Razor.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.WebPages.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.WebPages.Deployment.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\System.Web.WebPages.Razor.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Antlr3.Runtime.pdb
+D:\1-C# Çalışma\BankApplication\BankApplication\bin\Newtonsoft.Json.xml
+D:\1-C# Çalışma\BankApplication\BankApplication\obj\Debug\BankApplication.dll
+D:\1-C# Çalışma\BankApplication\BankApplication\obj\Debug\BankApplication.pdb
+D:\1-C# Çalışma\BankApplication\BankApplication\obj\Debug\BankApplication.csprojResolveAssemblyReference.cache
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\ApplicationInsights.config
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\csc.exe
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\vbc.exe
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\BankApplication.dll.config
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\BankApplication.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\BankApplication.pdb
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Antlr3.Runtime.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.Web.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Newtonsoft.Json.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Helpers.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Mvc.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Optimization.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Razor.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.WebPages.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\WebGrease.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.Web.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Helpers.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Mvc.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Optimization.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.Razor.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.WebPages.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Antlr3.Runtime.pdb
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\bin\Newtonsoft.Json.xml
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\obj\Debug\BankApplication.csprojResolveAssemblyReference.cache
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\obj\Debug\BankApplication.dll
+C:\Users\utkuf\OneDrive\Masaüstü\BankApplication\BankApplication\obj\Debug\BankApplication.pdb

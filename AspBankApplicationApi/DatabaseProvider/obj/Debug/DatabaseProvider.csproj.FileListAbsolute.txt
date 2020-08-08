@@ -1,0 +1,5 @@
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\DatabaseProvider\bin\Debug\DatabaseProvider.dll
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\DatabaseProvider\bin\Debug\DatabaseProvider.pdb
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\DatabaseProvider\obj\Debug\DatabaseProvider.csprojResolveAssemblyReference.cache
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\DatabaseProvider\obj\Debug\DatabaseProvider.dll
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\DatabaseProvider\obj\Debug\DatabaseProvider.pdb

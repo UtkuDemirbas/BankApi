@@ -1,0 +1,10 @@
+D:\1-C# Çalışma\BankWebService\Database\bin\Debug\Database.dll
+D:\1-C# Çalışma\BankWebService\Database\bin\Debug\Database.pdb
+D:\1-C# Çalışma\BankWebService\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+D:\1-C# Çalışma\BankWebService\Database\obj\Debug\Database.dll
+D:\1-C# Çalışma\BankWebService\Database\obj\Debug\Database.pdb
+D:\1-C# Çalışma\BankaUygulamasi\BankWebService\Database\bin\Debug\Database.dll
+D:\1-C# Çalışma\BankaUygulamasi\BankWebService\Database\bin\Debug\Database.pdb
+D:\1-C# Çalışma\BankaUygulamasi\BankWebService\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+D:\1-C# Çalışma\BankaUygulamasi\BankWebService\Database\obj\Debug\Database.dll
+D:\1-C# Çalışma\BankaUygulamasi\BankWebService\Database\obj\Debug\Database.pdb

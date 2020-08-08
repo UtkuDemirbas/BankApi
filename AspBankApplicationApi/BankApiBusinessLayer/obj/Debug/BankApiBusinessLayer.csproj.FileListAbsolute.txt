@@ -1,0 +1,7 @@
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\BankApiBusinessLayer\bin\Debug\BankApiBusinessLayer.dll
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\BankApiBusinessLayer\bin\Debug\BankApiBusinessLayer.pdb
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\BankApiBusinessLayer\bin\Debug\DatabaseProvider.dll
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\BankApiBusinessLayer\bin\Debug\DatabaseProvider.pdb
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\BankApiBusinessLayer\obj\Debug\BankApiBusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\BankApiBusinessLayer\obj\Debug\BankApiBusinessLayer.dll
+C:\Users\utkuf\onedrive\belgeler\visual studio 2015\Projects\AspBankApplicationApi\BankApiBusinessLayer\obj\Debug\BankApiBusinessLayer.pdb
